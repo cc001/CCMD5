@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841516431D0D323D00420E97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841516421D0D323D00420E97 /* main.m */; };
+		841516461D0D323D00420E97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841516451D0D323D00420E97 /* AppDelegate.m */; };
+		841516491D0D323D00420E97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841516481D0D323D00420E97 /* ViewController.m */; };
+		8415164C1D0D323D00420E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8415164A1D0D323D00420E97 /* Main.storyboard */; };
+		8415164E1D0D323D00420E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8415164D1D0D323D00420E97 /* Assets.xcassets */; };
+		841516511D0D323D00420E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8415164F1D0D323D00420E97 /* LaunchScreen.storyboard */; };
+		8415165C1D0D323D00420E97 /* MD5__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415165B1D0D323D00420E97 /* MD5__Tests.m */; };
+		841516671D0D323D00420E97 /* MD5__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841516661D0D323D00420E97 /* MD5__UITests.m */; };
+		8415167B1D0D350500420E97 /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415167A1D0D350500420E97 /* MD5Encryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841516581D0D323D00420E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841516361D0D323C00420E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8415163D1D0D323C00420E97;
+			remoteInfo = "MD5加密";
+		};
+		841516631D0D323D00420E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841516361D0D323C00420E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8415163D1D0D323C00420E97;
+			remoteInfo = "MD5加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8415163E1D0D323C00420E97 /* MD5加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MD5加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841516421D0D323D00420E97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841516441D0D323D00420E97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841516451D0D323D00420E97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841516471D0D323D00420E97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841516481D0D323D00420E97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8415164B1D0D323D00420E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8415164D1D0D323D00420E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841516501D0D323D00420E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841516521D0D323D00420E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841516571D0D323D00420E97 /* MD5加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8415165B1D0D323D00420E97 /* MD5__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5__Tests.m; sourceTree = "<group>"; };
+		8415165D1D0D323D00420E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841516621D0D323D00420E97 /* MD5加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841516661D0D323D00420E97 /* MD5__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5__UITests.m; sourceTree = "<group>"; };
+		841516681D0D323D00420E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841516791D0D350500420E97 /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
+		8415167A1D0D350500420E97 /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8415163B1D0D323C00420E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841516541D0D323D00420E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415165F1D0D323D00420E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841516351D0D323C00420E97 = {
+			isa = PBXGroup;
+			children = (
+				841516401D0D323D00420E97 /* MD5加密 */,
+				8415165A1D0D323D00420E97 /* MD5加密Tests */,
+				841516651D0D323D00420E97 /* MD5加密UITests */,
+				8415163F1D0D323C00420E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8415163F1D0D323C00420E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8415163E1D0D323C00420E97 /* MD5加密.app */,
+				841516571D0D323D00420E97 /* MD5加密Tests.xctest */,
+				841516621D0D323D00420E97 /* MD5加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841516401D0D323D00420E97 /* MD5加密 */ = {
+			isa = PBXGroup;
+			children = (
+				841516441D0D323D00420E97 /* AppDelegate.h */,
+				841516451D0D323D00420E97 /* AppDelegate.m */,
+				841516471D0D323D00420E97 /* ViewController.h */,
+				841516481D0D323D00420E97 /* ViewController.m */,
+				841516781D0D350500420E97 /* MD5 */,
+				8415164A1D0D323D00420E97 /* Main.storyboard */,
+				8415164D1D0D323D00420E97 /* Assets.xcassets */,
+				8415164F1D0D323D00420E97 /* LaunchScreen.storyboard */,
+				841516521D0D323D00420E97 /* Info.plist */,
+				841516411D0D323D00420E97 /* Supporting Files */,
+			);
+			path = "MD5加密";
+			sourceTree = "<group>";
+		};
+		841516411D0D323D00420E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841516421D0D323D00420E97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8415165A1D0D323D00420E97 /* MD5加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8415165B1D0D323D00420E97 /* MD5__Tests.m */,
+				8415165D1D0D323D00420E97 /* Info.plist */,
+			);
+			path = "MD5加密Tests";
+			sourceTree = "<group>";
+		};
+		841516651D0D323D00420E97 /* MD5加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				841516661D0D323D00420E97 /* MD5__UITests.m */,
+				841516681D0D323D00420E97 /* Info.plist */,
+			);
+			path = "MD5加密UITests";
+			sourceTree = "<group>";
+		};
+		841516781D0D350500420E97 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				841516791D0D350500420E97 /* MD5Encryption.h */,
+				8415167A1D0D350500420E97 /* MD5Encryption.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8415163D1D0D323C00420E97 /* MD5加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8415166B1D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密" */;
+			buildPhases = (
+				8415163A1D0D323C00420E97 /* Sources */,
+				8415163B1D0D323C00420E97 /* Frameworks */,
+				8415163C1D0D323C00420E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MD5加密";
+			productName = "MD5加密";
+			productReference = 8415163E1D0D323C00420E97 /* MD5加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841516561D0D323D00420E97 /* MD5加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8415166E1D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密Tests" */;
+			buildPhases = (
+				841516531D0D323D00420E97 /* Sources */,
+				841516541D0D323D00420E97 /* Frameworks */,
+				841516551D0D323D00420E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841516591D0D323D00420E97 /* PBXTargetDependency */,
+			);
+			name = "MD5加密Tests";
+			productName = "MD5加密Tests";
+			productReference = 841516571D0D323D00420E97 /* MD5加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841516611D0D323D00420E97 /* MD5加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841516711D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密UITests" */;
+			buildPhases = (
+				8415165E1D0D323D00420E97 /* Sources */,
+				8415165F1D0D323D00420E97 /* Frameworks */,
+				841516601D0D323D00420E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841516641D0D323D00420E97 /* PBXTargetDependency */,
+			);
+			name = "MD5加密UITests";
+			productName = "MD5加密UITests";
+			productReference = 841516621D0D323D00420E97 /* MD5加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841516361D0D323C00420E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CC;
+				TargetAttributes = {
+					8415163D1D0D323C00420E97 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					841516561D0D323D00420E97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8415163D1D0D323C00420E97;
+					};
+					841516611D0D323D00420E97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8415163D1D0D323C00420E97;
+					};
+				};
+			};
+			buildConfigurationList = 841516391D0D323C00420E97 /* Build configuration list for PBXProject "MD5加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841516351D0D323C00420E97;
+			productRefGroup = 8415163F1D0D323C00420E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8415163D1D0D323C00420E97 /* MD5加密 */,
+				841516561D0D323D00420E97 /* MD5加密Tests */,
+				841516611D0D323D00420E97 /* MD5加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8415163C1D0D323C00420E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841516511D0D323D00420E97 /* LaunchScreen.storyboard in Resources */,
+				8415164E1D0D323D00420E97 /* Assets.xcassets in Resources */,
+				8415164C1D0D323D00420E97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841516551D0D323D00420E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841516601D0D323D00420E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8415163A1D0D323C00420E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841516491D0D323D00420E97 /* ViewController.m in Sources */,
+				841516461D0D323D00420E97 /* AppDelegate.m in Sources */,
+				841516431D0D323D00420E97 /* main.m in Sources */,
+				8415167B1D0D350500420E97 /* MD5Encryption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841516531D0D323D00420E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8415165C1D0D323D00420E97 /* MD5__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415165E1D0D323D00420E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841516671D0D323D00420E97 /* MD5__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841516591D0D323D00420E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8415163D1D0D323C00420E97 /* MD5加密 */;
+			targetProxy = 841516581D0D323D00420E97 /* PBXContainerItemProxy */;
+		};
+		841516641D0D323D00420E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8415163D1D0D323C00420E97 /* MD5加密 */;
+			targetProxy = 841516631D0D323D00420E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8415164A1D0D323D00420E97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8415164B1D0D323D00420E97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8415164F1D0D323D00420E97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841516501D0D323D00420E97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841516691D0D323D00420E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8415166A1D0D323D00420E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8415166C1D0D323D00420E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MD5加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8415166D1D0D323D00420E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MD5加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8415166F1D0D323D00420E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MD5加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密.app/MD5加密";
+			};
+			name = Debug;
+		};
+		841516701D0D323D00420E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MD5加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密.app/MD5加密";
+			};
+			name = Release;
+		};
+		841516721D0D323D00420E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MD5加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MD5加密";
+			};
+			name = Debug;
+		};
+		841516731D0D323D00420E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MD5加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CC.MD5--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MD5加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841516391D0D323C00420E97 /* Build configuration list for PBXProject "MD5加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841516691D0D323D00420E97 /* Debug */,
+				8415166A1D0D323D00420E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8415166B1D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8415166C1D0D323D00420E97 /* Debug */,
+				8415166D1D0D323D00420E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8415166E1D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8415166F1D0D323D00420E97 /* Debug */,
+				841516701D0D323D00420E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		841516711D0D323D00420E97 /* Build configuration list for PBXNativeTarget "MD5加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841516721D0D323D00420E97 /* Debug */,
+				841516731D0D323D00420E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841516361D0D323C00420E97 /* Project object */;
+}
